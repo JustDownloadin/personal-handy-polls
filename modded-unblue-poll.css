@@ -20,6 +20,7 @@
     border: {text:Poll border size} solid {color:Poll border color} !important;
     padding: {text:Poll border padding} !important;
     font-size: {text:Poll option size} !important;
+    font-family: {font:Poll option font} !important;
     box-shadow: none!important;
     color: {color:Poll text color} !important;
     min-height: 0!important;
