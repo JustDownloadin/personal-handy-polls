@@ -4,7 +4,7 @@
 
 .poll-post .poll-question {
     font-size: {text:Poll question size} !important;
-    font-family: {font:Poll option font} !important;
+    font-family: {font:Poll question font} !important;
     line-height: inherit!important;
     margin-bottom: 1em!important;
 }
