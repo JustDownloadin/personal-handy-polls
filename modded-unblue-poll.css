@@ -1,0 +1,50 @@
+.poll-post, .poll-post * {
+    transition: background-color {text:Poll hover speed} ease-in-out, color {text:Poll hover speed} ease-in-out, border-color {text:Poll hover speed} ease-in-out;
+}
+
+.poll-post .poll-question {
+    font-size: {text:Poll question size} !important;
+    font-family: {font:Poll option font} !important;
+    line-height: inherit!important;
+    margin-bottom: 1em!important;
+}
+
+.poll-post .poll-question + a.poll-row {
+    margin-top: 1em!important;
+}
+
+.poll-post a.poll-row {
+    margin: {text:Poll option spacing} 0!important;
+    background-color: {color:Poll option color} !important;
+    border-radius: {text:Poll round borders} !important;
+    border: {text:Poll border size} solid {color:Poll border color} !important;
+    padding: {text:Poll border padding} !important;
+    font-size: {text:Poll option size} !important;
+    box-shadow: none!important;
+    color: {color:Poll text color} !important;
+    min-height: 0!important;
+    font-weight: normal !important;
+    text-align: center;
+}
+
+.poll-post a.poll-row p {
+    margin: 0!important;
+    color: inherit!important;
+    transition: color 0s;
+}
+
+.poll-post a.poll-row:hover {
+    font-family: {font:Poll option font} !important;
+    border-color: {color:Poll border hover} !important;
+    background-color: {color:Poll background hover} !important;
+    color: {color:Poll text hover}!important;
+}
+
+.poll-post .poll-see-results {
+    margin-top:1em;
+    font-weight:bold;
+}
+
+.poll-post + p:not(:empty}{
+    margin-top:1em;
+}
